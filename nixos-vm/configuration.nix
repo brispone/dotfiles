@@ -133,6 +133,7 @@
      vscode
      libsForQt5.kalk
      starship
+     qbittorent
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
