@@ -1,0 +1,188 @@
+{
+  "about": {
+    "browser": "firefox",
+    "version": "1.18.4"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "Brad",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "usdate": false,
+  "background_blur": 15,
+  "background_bright": 0.8,
+  "background_type": "local",
+  "quicklinks": true,
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": 6,
+  "linksqehgam": {
+    "order": 3,
+    "_id": "linksqehgam",
+    "title": "Lemmy",
+    "icon": "https://lemm.ee/pictrs/image/eab936ac-6857-4744-97b5-b33c91589357.webp",
+    "url": "https://lemm.ee"
+  },
+  "linksphmqqa": {
+    "order": 2,
+    "_id": "linksphmqqa",
+    "title": "Mastodon",
+    "icon": "https://mastodon.online/favicon.ico",
+    "url": "https://mastodon.online/home"
+  },
+  "linkscdggga": {
+    "order": 1,
+    "_id": "linkscdggga",
+    "title": "X",
+    "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+    "url": "https://x.com"
+  },
+  "linksoejgbe": {
+    "order": 0,
+    "_id": "linksoejgbe",
+    "title": "reddit",
+    "icon": "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png",
+    "url": "https://old.reddit.com"
+  },
+  "textShadow": 0.2,
+  "reviewPopup": "removed",
+  "cssHeight": 80,
+  "css": "",
+  "hide": {
+    "weatherdesc": false,
+    "weathericon": true
+  },
+  "clock": {
+    "size": 1,
+    "ampm": true,
+    "analog": false,
+    "seconds": false,
+    "face": "none",
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "every": "hour",
+    "collection": "",
+    "lastCollec": "day",
+    "pausedImage": null,
+    "time": 1701795966122
+  },
+  "weather": {
+    "ccode": "FR",
+    "city": "City",
+    "unit": "imperial",
+    "provider": "",
+    "moreinfo": "none",
+    "forecast": "never",
+    "temperature": "actual",
+    "geolocation": "precise"
+  },
+  "notes": {
+    "on": false,
+    "opacity": 0.1,
+    "width": 40,
+    "text": null,
+    "align": "left"
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "google",
+    "request": "",
+    "placeholder": ""
+  },
+  "quotes": {
+    "on": true,
+    "author": true,
+    "type": "classic",
+    "frequency": "day",
+    "last": 1701792842318,
+    "userlist": []
+  },
+  "font": {
+    "url": "",
+    "size": "14",
+    "family": "Fira Code",
+    "weight": "400",
+    "availWeights": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ]
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      },
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    }
+  }
+}
